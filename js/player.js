@@ -37,8 +37,10 @@ class Player {
         })
     }
 
-    //Write a function for getPlayerAtEnd() - to read the data from the playerAtEnd node in the database.
+   //write a function for getPlayerAtEnd()
+       
 
-   //Write a function for updatePlayerAtEnd() - a static function that updates the playerAtEnd node in the database. 
+   //write a function for  static updatePlayerAtEnd(rank)
+        
     
 }

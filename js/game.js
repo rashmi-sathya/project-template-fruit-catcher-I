@@ -41,7 +41,9 @@ class Game{
 
                 Player.getPlayerInfo();
 //Call the getPlayerAtEnd() function in the play() function of game.js.
-                 image(back_img, 0, 0, 1000, 800);
+
+
+                image(back_img, 0, 0, 1000, 800);
                  var x =100;
                  var y=200;
                  var index =0;
@@ -73,12 +75,12 @@ class Game{
                  }
                 
                 if(player.score>=5){
-                    gameState = 2; 
                     player.rank += 1;
-//Call the updatePlayerAtEnd() function in the play() of game.js when the score is a high number
+//Call the updatePlayerAtEnd() function in the play() of game.js
                     player.update();
                     this.showRank();
-                    
+                    gameState = 2; 
+
                 }
                  
 
@@ -131,16 +133,8 @@ class Game{
 
     }
     showRank() {
-//display alert message
-      }
+      //create swal function
+        }
 
-gameOver() {
-   //display the gameover text
-    }
-    
-    end(){
-       console.log("Game Ended");
-       console.log(player.rank)
-//call gameover
-    }
+
 }
